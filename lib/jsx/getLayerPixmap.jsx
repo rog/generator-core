@@ -103,8 +103,8 @@ if (params.inputRect && params.outputRect) {
         transform.putBoolean(stringIDToTypeID("forceDumbScaling"), true);
     }
 
-    transform.putDouble(stringIDToTypeID("width"), params.scaleX * 100);
-    transform.putDouble(stringIDToTypeID("height"), params.scaleY * 100);
+    transform.putDouble(charIDToTypeID("Wdth"), params.scaleX * 100);
+    transform.putDouble(charIDToTypeID("Hght"), params.scaleY * 100);
 }
 
 if (transform) {
